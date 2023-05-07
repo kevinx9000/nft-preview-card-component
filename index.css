@@ -1,0 +1,185 @@
+  /* GOOGLE FONT */
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+  /* VARIABLES */
+  :root {
+      --soft-blue: hsl(215, 51%, 70%);
+      --cyan: hsl(178, 100%, 50%);
+      /* main background */
+      --dark-blue-1: hsl(217, 54%, 11%);
+      /* card background */
+      --dark-blue-2: hsl(216, 50%, 16%);
+      /* line */
+      --dark-blue-3: hsl(215, 32%, 27%);
+      --white: hsl(0, 0%, 100%);
+      --font-size: 18px;
+      --font-family: 'Outfit', sans-serif;
+  }
+
+  /* RESET STYLES */
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  /* MAIN AREA */
+  body {
+      font-family: var(--font-family);
+      background-color: var(--dark-blue-1);
+      color: white;
+  }
+
+  main {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  /* PROFILE CARD */
+  .card-container {
+      background-color: var(--dark-blue-2);
+      width: 275px;
+      height: 470px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 10px;
+  }
+
+  /* MAIN IMAGE AND OVERLAY */
+  .equilibrium-image-container {
+      position: relative;
+  }
+
+  #image-equilibrium {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      align-self: center;
+  }
+
+  .view-icon-container {
+      background-color: hsla(178, 100%, 50%, 50%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: all 0.2s ease;
+  }
+
+  .view-icon-container:hover {
+      opacity: 1;
+      cursor: pointer;
+  }
+
+  /* TEXT AREAS */
+  .card-container h1 {
+      font-size: 18px;
+      font-weight: 600;
+      padding: 2px 0;
+  }
+
+  .card-container > h1 > a {
+      color: white;
+      text-decoration: none;
+  }
+
+  .card-container > h1 > a:hover {
+      cursor: pointer;
+      color: var(--cyan);
+  }
+
+  .card-container > h1 + p {
+      font-size: 0.9em;
+      font-weight: 300;
+      color: var(--soft-blue);
+      line-height: 1.5;
+  }
+
+  .stats-container {
+      font-size: 0.8em;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .price-container {
+      color: var(--cyan);
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  #icon-ethereum {
+      margin-right: 5px;
+  }
+
+  .clock-container {
+      color: var(--soft-blue);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  #icon-clock {
+      margin-right: 5px;
+  }
+
+  hr {
+      color: var(--dark-blue-3);
+  }
+
+  .avatar-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+  }
+
+  .avatar-section p {
+      font-size: 0.8em;
+      padding-left: 15px;
+      color: var(--soft-blue);
+  }
+
+  .avatar-section p a {
+      color: white;
+      text-decoration: none;
+  }
+
+  .avatar-section p a:hover {
+      color: var(--cyan);
+      cursor: pointer;
+  }
+
+  #image-avatar {
+      width: 26px;
+      border: 1px solid white;
+      border-radius: 50%;
+  }
+
+  /* ATTRIBUTION */
+  .attribution {
+      font-size: 11px;
+      text-align: center;
+      position: absolute;
+      bottom: 40px;
+  }
+
+  .attribution a {
+      color: var(--cyan);
+  }
