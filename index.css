@@ -140,7 +140,7 @@
   }
 
   hr {
-      color: var(--dark-blue-3);
+      border: 1px solid var(--dark-blue-3);
   }
 
   .avatar-section {
