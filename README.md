@@ -12,8 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -37,7 +35,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Author
 
-- Frontend Mentor - [@kevinx9000](https://www.frontendmentor.io/profile/kevinx9000)
+- Frontend Mentor | [@kevinx9000](https://www.frontendmentor.io/profile/kevinx9000)
 
 
 ## Acknowledgments
@@ -45,3 +43,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 The ONLY way I had any inkling of how to do the hover effect overlay for the main image was from completing the following Udemy course; I went back into one of the completed projects from there and reviewed the code to get an idea of how to mimic that in this challenge.
 
 [HTML & CSS Bootcamp](https://www.udemy.com/course/html-and-css-bootcamp/)
+
+- Made an update after receiving feedback from [@0xAbdulKhalid](https://www.frontendmentor.io/profile/0xAbdulKhalid) regarding height and min-height for the viewport.
+
+- Made an update to some flex items to replace margin settings with the gap property, and removed some unnecessary default properties in order to clear up some lines of code, based on feedback from [@Ibarra11](https://www.frontendmentor.io/profile/Ibarra11).
